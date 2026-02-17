@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: RSOLV-dev/RSOLV-action@v3
+      - uses: RSOLV-dev/RSOLV-action@v4
         with:
           rsolvApiKey: ${{ secrets.RSOLV_API_KEY }}
           mode: full
